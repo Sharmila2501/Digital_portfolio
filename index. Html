@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Name's Profile</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write a short bio about yourself here.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>Description of your project.</p>
+        </div>
+        <!-- Repeat for other projects -->
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: your@email.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/yourprofile">Your Profile</a></p>
+    </section>
+</body>
+</html>
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #333;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.project {
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+}
